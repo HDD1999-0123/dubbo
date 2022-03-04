@@ -3,12 +3,14 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/dubboDemo-consumer" />
     <file type="web" url="file://$PROJECT_DIR$/dubboDemo-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/dubboDemo-service" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/dubboDemo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubboDemo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubboDemo-service/pom.xml" />
       </list>
     </option>
   </component>

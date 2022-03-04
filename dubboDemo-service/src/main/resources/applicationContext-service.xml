@@ -13,11 +13,5 @@
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
-    <!-- 当前应用名称，用于注册中心计算应用间依赖关系，注意：消费者和提供者应用名不要一样 -->
-    <dubbo:application name="dubbodemo-consumer" />
-    <!-- 连接服务注册中心zookeeper ip为zookeeper所在服务器的ip地址-->
-    <dubbo:registry address="zookeeper://192.168.49.128:2181"/>
-    <!-- 扫描的方式暴露接口 -->
-    <dubbo:annotation package="com.hdd.controller" />
 
 </beans>

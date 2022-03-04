@@ -14,7 +14,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/demo")
 public class HelloController {
-    @Reference
+    //在服务消费者一方配置负载均衡策略
+    @Reference(check = false,loadbalance = "random")
     private HelloService helloService;
     @RequestMapping("/hello")
     @ResponseBody
